@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="components/loader.js"></script>
+  
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+      <div class="col-sm-12 p-3 text-center bg-dark">
+        <h1 style="color:white">Forme a Palavra</h1>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12" id="pergunta">
+      <img src="img/casa.png">
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h1 class="text-danger" id="display">...</h1>
+    </div>
+  </div>
+  <hr>
+  <br>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <button class="btn btn-primary btn-lg alternativa">S</button>
+      <button class="btn btn-primary btn-lg alternativa">D</button>
+      <button class="btn btn-primary btn-lg alternativa">A</button>
+      <button class="btn btn-primary btn-lg alternativa">N</button>
+      <button class="btn btn-primary btn-lg alternativa">P</button>
+      <button class="btn btn-primary btn-lg alternativa">J</button>
+      <button class="btn btn-primary btn-lg alternativa">C</button>
+      <br><br>
+      <button class="btn btn-primary btn-lg alternativa">O</button>
+      <button class="btn btn-primary btn-lg alternativa">Z</button>
+      <button class="btn btn-primary btn-lg alternativa">H</button>
+      <button class="btn btn-primary btn-lg alternativa">L</button>
+
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <button class="btn btn-danger btn-lg" id="responder">Responder</button>
+    </div>
+  </div>
+</div>
+<script src="lib/jquery.js"></script>
+<script src="lib/app.js"></script>
+</body>
+</html>
